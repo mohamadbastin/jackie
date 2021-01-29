@@ -12,7 +12,7 @@ public class Engine {
 
     public static void generate(){
         for (ClassModel a : classes) {
-//            System.out.println(JavaEngine.JavaClassModel.generate(a));
+            System.out.println(JavaEngine.JavaClassModel.generate(a));
         }
     }
 
